@@ -105,10 +105,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center;
     color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-style: italic;
+    padding: 1em;
+    text-align: center;
 }
 
 #clockdiv {
@@ -155,9 +158,6 @@ p {
 }
 
 #clockdiv div > span {
-    padding: 15px;
-    border-radius: 3px;
-    display: inline-block;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -165,6 +165,6 @@ p {
 
 @media (max-width: 48em) {
     #clockdiv {
-        font-size: 200%;
+        font-size: 150%;
     }
 }

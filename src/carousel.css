@@ -32,3 +32,9 @@
 .carousel > .fade-in {
     opacity: 1;
 }
+
+@media (max-width: 48em) {
+    .carousel > div > p {
+        font-size: 100%;
+    }
+}
