@@ -1,0 +1,9 @@
+splash:
+  image: node:5.3
+  volumes:
+    - ./src:/dibbs/src
+    - ./node_modules:/dibbs/node_modules
+  working_dir: '/dibbs'
+  command: node src/server.js
+  ports:
+    - 80:8000
