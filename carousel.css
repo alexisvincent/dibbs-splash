@@ -1,0 +1,34 @@
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5em 0 5em 0;
+}
+
+.carousel > div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 3em;
+}
+
+.carousel > div > p {
+    font-size: 200%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.carousel > .fade-in {
+    opacity: 1;
+}
