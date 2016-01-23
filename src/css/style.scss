@@ -105,6 +105,10 @@ a {
       -ms-flex-align: center;
       align-items: center;
       padding: 1.5em;
+      text-align: center;
+      @include phone {
+        padding-top: .2em;
+      }
       p {
         font-size: 300%;
         text-transform: capitalize;
@@ -133,14 +137,28 @@ a {
         max-width: 35em;
         margin: 0 .5em 0 .5em;
         @include phone {
-          font-size: 120%;
+          font-size: 110%;
+          font-weight: 300;
+          min-height: 3em;
         }
         text {
           margin-right: 3px;
           font-size: 180%;
           @include phone {
+            font-weight: 400;
             font-size: 170%;
           }
+        }
+      }
+
+      .a-lot-of-content {
+        @include phone {
+          min-height: 12em;
+        }
+      }
+      .not-as-much-content {
+        @include phone {
+          min-height: 5em;
         }
       }
     }
