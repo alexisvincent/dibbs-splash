@@ -1,5 +1,17 @@
 .splash {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+
+  justify-content: center !important;
+
+  align-items: center !important;
   .splash-header {
+    position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -48,8 +60,6 @@
     -ms-flex-align: center;
     align-items: center;
     margin-top: -3em;
-    height: 100%;
-
     .carousel {
       position: relative;
       display: -webkit-box;
