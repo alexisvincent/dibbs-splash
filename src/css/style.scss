@@ -3,6 +3,18 @@
   src: url("../fonts/deadhead.otf");
 }
 
+@mixin tablet {
+  @media (max-width: 77em) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 48em) {
+    @content;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -55,6 +67,7 @@ a {
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
+    justify-content: center;
     align-items: stretch;
     height: 100vh;
     width: 100%;
@@ -96,6 +109,9 @@ a {
         font-size: 300%;
         text-transform: capitalize;
         font-weight: 300;
+        @include phone {
+          font-size: 150%;
+        }
       }
     }
 
@@ -104,23 +120,27 @@ a {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: start;
-      -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-      align-items: flex-start;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: center;
       height: 100%;
       width: 100%;
       text-align: center;
       p {
-        font-size: 150%;
+        font-size: 180%;
         font-weight: 200;
         font-style: italic;
+        max-width: 35em;
+        margin: 0 .5em 0 .5em;
+        @include phone {
+          font-size: 120%;
+        }
         text {
+          margin-right: 3px;
           font-size: 180%;
+          @include phone {
+            font-size: 170%;
+          }
         }
       }
     }
@@ -145,18 +165,6 @@ a {
         color: rgba(255, 255, 255, .7);
       }
     }
-  }
-}
-
-@mixin tablet {
-  @media (max-width: 77em) {
-    @content;
-  }
-}
-
-@mixin phone {
-  @media (max-width: 48em) {
-    @content;
   }
 }
 
