@@ -1,0 +1,112 @@
+.splash {
+  .splash-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 35em;
+    }
+  }
+
+  .splash-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3em;
+
+    .carousel {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 5em 0 5em 0;
+      div {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 1s ease-in-out;
+        opacity: 0;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 3em;
+        p {
+          font-size: 200%;
+          color: white;
+          font-family: 'Lato', sans-serif;
+          font-weight: 300;
+          font-style: italic;
+          text-transform: uppercase;
+          @include phone {
+            font-size: 100%;
+          }
+        }
+      }
+
+      .fade-in {
+        opacity: 1;
+      }
+    }
+
+    .countdown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 0 0 2px 0 white;
+      font-family: 'Lato', sans-serif;
+      .clock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 400%;
+        @include phone {
+          font-size: 150%;
+        }
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          border-radius: 3px;
+          font-family: 'Lato', sans-serif;
+          span {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            font-style: italic;
+          }
+
+          p {
+            font-weight: 200;
+            font-style: italic;
+            font-family: 'Lato', sans-serif;
+          }
+        }
+      }
+    }
+
+    .description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+      padding: 1em;
+      text-align: center;
+    }
+  }
+}

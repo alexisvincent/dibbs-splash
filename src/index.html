@@ -9,61 +9,90 @@
     <meta name="apple-mobile-web-app-title" content="Local Interface">
     <meta name='apple-mobile-web-app-capable' content='yes'>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="icomoon/style.css">
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,100italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+
 <div class="container">
-    <div class="header">
-        <img src="dibbs-white.png" alt="">
-    </div>
+    <div class="scrollable">
+        <div class="block splash">
+            <div class="splash-header">
+                <img src="static/dibbs-white.png">
+            </div>
 
-    <div class="content">
-        <div class="carousel" id="carousel">
-            <div><p>second hand textbooks</p></div>
-            <div><p>lift sharing</p></div>
-            <div><p>campus wide games</p></div>
-            <div><p>Find Apartments and Flatmates</p></div>
-        </div>
+            <div class="splash-content">
+                <div class="carousel" id="carousel">
+                    <div><p>second hand textbooks</p></div>
+                    <div><p>lift sharing</p></div>
+                    <div><p>campus wide games</p></div>
+                    <div><p>Find Apartments and Flatmates</p></div>
+                </div>
 
-        <div class="countdown">
-            <div id="clockdiv">
-                <div>
-                    <span class="days"></span>
+                <div class="countdown">
+                    <div id="clockdiv" class="clock">
+                        <div>
+                            <span class="days"></span>
+                        </div>
+                        <div>
+                            <p>Days</p>
+                        </div>
+                        <div>
+                            <span class="hours"></span>
+                        </div>
+                        <div>
+                            <p>:</p>
+                        </div>
+                        <div>
+                            <span class="minutes"></span>
+                        </div>
+                        <div>
+                            <p>:</p>
+                        </div>
+                        <div>
+                            <span class="seconds"></span>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <p>Days</p>
+
+                <div class="description">
+                    <p>Sorry for the delay. Literally 15 minutes, we had to get ice cream :)</p>
                 </div>
-                <div>
-                    <span class="hours"></span>
-                </div>
-                <div>
-                    <p>:</p>
-                </div>
-                <div>
-                    <span class="minutes"></span>
-                </div>
-                <div>
-                    <p>:</p>
-                </div>
-                <div>
-                    <span class="seconds"></span>
-                </div>
+            </div>
+
+            <div class="arrow">
+                <a data-scroll href="#first">
+                    <i class="icon-chevron-thin-down"></i>
+                </a>
             </div>
         </div>
 
-        <div class="description">
-            <p>More information will be up by 22:00 tonight!</p>
-        </div>
+        <!--<div class="block text-books" id="first">-->
+            <!--<div class="header">-->
+                <!--<img src="static/dibbs-white.png" alt="">-->
+            <!--</div>-->
+
+            <!--<div class="title">-->
+                <!--<p>Second hand text books</p>-->
+            <!--</div>-->
+
+            <!--<div class="content">-->
+                <!--<p>-->
+                    <!--this is some cool <text>dibbs</text> content-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script src="countdown.js"></script>
-<script src="carousel.js"></script>
-<script src="google-analytics.js"></script>
+<script src="js/countdown.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/google-analytics.js"></script>
+<script>smoothScroll.init();</script>
 </body>
 </html>

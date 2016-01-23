@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d47df64-e3b8-401b-aceb-f71453830234" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/splash.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/text-books.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/middleware/auto-prefix.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/style.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/carousel.js" afterPath="$PROJECT_DIR$/src/js/carousel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/countdown.js" afterPath="$PROJECT_DIR$/src/js/countdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dibbs-white.png" afterPath="$PROJECT_DIR$/src/static/dibbs-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dibbs.png" afterPath="$PROJECT_DIR$/src/static/dibbs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/google-analytics.js" afterPath="$PROJECT_DIR$/src/js/google-analytics.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server.js" afterPath="$PROJECT_DIR$/src/server.js" />
     </list>
     <ignored path="splash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,22 +31,41 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="splash" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6927711">
-              <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.36350575">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.3686747">
+                  <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.48795182">
+                  <caret line="61" column="92" selection-start-line="61" selection-start-column="92" selection-end-line="61" selection-end-column="92" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,6 +93,14 @@
         <option value="$PROJECT_DIR$/src/countdown.js" />
         <option value="$PROJECT_DIR$/src/analytics.js" />
         <option value="$PROJECT_DIR$/src/google-analytics.js" />
+        <option value="$PROJECT_DIR$/src/css/test.scss" />
+        <option value="$PROJECT_DIR$/src/css/text-books.scss" />
+        <option value="$PROJECT_DIR$/src/middleware/auto-prefix.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/server.js" />
+        <option value="$PROJECT_DIR$/src/css/splash.scss" />
+        <option value="$PROJECT_DIR$/src/js/smooth-scroll.min.js" />
+        <option value="$PROJECT_DIR$/src/css/style.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
@@ -135,6 +176,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="splash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -142,10 +237,15 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/src/static" />
+      <recent name="$PROJECT_DIR$/src/js" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -294,7 +394,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -328,7 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dibbs.png">
+    <entry file="file://$PROJECT_DIR$/src/static/dibbs.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -345,48 +445,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dibbs-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package.json">
+    <entry file="file://$PROJECT_DIR$/src/js/carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37777779">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
-            <marker date="1453552402000" expanded="true" signature="0:466" placeholder="{&quot;name&quot;: &quot;splash&quot;...}" />
-            <marker date="1453552402000" expanded="true" signature="103:197" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1453552402000" expanded="true" signature="215:308" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1453552402000" expanded="true" signature="434:464" placeholder="{&quot;express&quot;: &quot;^4.13.4&quot;...}" />
+            <marker date="1453551053000" expanded="true" signature="16:390" placeholder="{...}" />
+            <marker date="1453551053000" expanded="true" signature="95:362" placeholder="{...}" />
+            <marker date="1453551053000" expanded="true" signature="164:349" placeholder="{...}" />
+            <marker date="1453551053000" expanded="true" signature="225:266" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57349396">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <marker date="1453556349000" expanded="true" signature="10:152" placeholder="{...}" />
-            <marker date="1453556349000" expanded="true" signature="170:385" placeholder="{...}" />
-            <marker date="1453556349000" expanded="true" signature="407:563" placeholder="{...}" />
-            <marker date="1453556349000" expanded="true" signature="586:605" placeholder="{...}" />
-            <marker date="1453556349000" expanded="true" signature="632:692" placeholder="{...}" />
-            <marker date="1453556349000" expanded="true" signature="658:690" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11929824">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/countdown.js">
+    <entry file="file://$PROJECT_DIR$/src/js/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37777779">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
@@ -400,44 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37777779">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <marker date="1453551053000" expanded="true" signature="16:390" placeholder="{...}" />
-            <marker date="1453551053000" expanded="true" signature="95:362" placeholder="{...}" />
-            <marker date="1453551053000" expanded="true" signature="164:349" placeholder="{...}" />
-            <marker date="1453551053000" expanded="true" signature="225:266" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59156626">
-          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding>
-            <marker date="1453556060000" expanded="true" signature="5:39" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="43:77" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="90:506" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="516:875" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="891:1270" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="1279:1303" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="1314:1758" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="1771:2201" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="2216:2464" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="2476:2913" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="2931:3352" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="3372:3458" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="3481:3567" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="3594:3644" placeholder="{...}" />
-            <marker date="1453556060000" expanded="true" signature="3610:3642" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/google-analytics.js">
+    <entry file="file://$PROJECT_DIR$/src/js/google-analytics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11929824">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
@@ -448,10 +483,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/dibbs-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43945578">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <marker date="1453580126000" expanded="true" signature="0:940" placeholder="{&quot;name&quot;: &quot;splash&quot;...}" />
+            <marker date="1453580126000" expanded="true" signature="103:201" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
+            <marker date="1453580126000" expanded="true" signature="219:312" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1453580126000" expanded="true" signature="438:592" placeholder="{&quot;express&quot;: &quot;^4.13.4&quot;...}" />
+            <marker date="1453580126000" expanded="true" signature="615:938" placeholder="{&quot;autoprefixer&quot;: &quot;6.2.3&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/middleware/auto-prefix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35789475">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <marker date="1453579021000" expanded="true" signature="157:3042" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="251:3039" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="542:1155" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="631:704" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="758:1071" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="938:1045" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="1077:1145" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="1325:3008" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="1348:1429" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="1513:1567" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="1640:1934" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="1773:1881" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="1968:2022" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="2097:2148" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="2172:2996" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="2379:2831" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="2552:2676" placeholder="{...}" />
+            <marker date="1453579021000" expanded="true" signature="2875:2980" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/es5-ext/string/#/indent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1435238762000" expanded="true" signature="192:203" placeholder="/*...*/" />
+            <marker date="1435238762000" expanded="true" signature="205:366" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/text-books.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03976608">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <marker date="1453578507000" expanded="true" signature="12:16" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/splash.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57349396">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <marker date="1453581084000" expanded="true" signature="8:2430" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="27:260" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="128:256" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="280:2428" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="415:1170" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="578:1118" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="842:1110" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1058:1100" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1135:1164" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1187:2133" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1376:2127" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1598:1636" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1649:2119" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1855:1975" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="1989:2109" placeholder="{...}" />
+            <marker date="1453581084000" expanded="true" signature="2152:2424" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/smooth-scroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03976608">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1453583503000" expanded="true" signature="0:115" placeholder="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23859648">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1453580736000" expanded="true" signature="112:228" placeholder="{&quot;sourceMap&quot;: true...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3686747">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6927711">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.48795182">
+          <caret line="61" column="92" selection-start-line="61" selection-start-column="92" selection-end-line="61" selection-end-column="92" />
           <folding />
         </state>
       </provider>

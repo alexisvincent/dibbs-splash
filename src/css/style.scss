@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Deadhead";
+  src: url("../fonts/deadhead.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+p, a, i {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+  text {
+    font-family: "Deadhead";
+    font-size: 150%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #ffb547;
+  .scrollable {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .block {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    height: 100vh;
+    width: 100%;
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4em;
+      img {
+        height: 4em;
+      }
+    }
+
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5em;
+      p {
+        font-size: 300%;
+        text-transform: capitalize;
+        font-weight: 300;
+      }
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      p {
+        font-size: 150%;
+        font-weight: 200;
+        font-style: italic;
+        text {
+          font-size: 180%;
+        }
+      }
+    }
+
+    .arrow {
+      display: flex;
+      padding: .5em;
+      height: 100%;
+      align-items: flex-end;
+      justify-content: center;
+      i {
+        font-size: 200%;
+        color: rgba(255, 255, 255, .7);
+      }
+    }
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 77em) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 48em) {
+    @content;
+  }
+}
+
+@import "splash";
