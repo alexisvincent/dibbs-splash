@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d47df64-e3b8-401b-aceb-f71453830234" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/countdown.js" afterPath="$PROJECT_DIR$/src/countdown.js" />
     </list>
     <ignored path="splash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+      <file leaf-file-name="countdown.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/countdown.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69036144">
-              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.79532164">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -58,6 +59,7 @@
         <option value="$PROJECT_DIR$/src/style.css" />
         <option value="$PROJECT_DIR$/src/carousel.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/countdown.js" />
       </list>
     </option>
   </component>
@@ -338,20 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7754386">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-          <folding>
-            <marker date="1453541600000" expanded="true" signature="35:447" placeholder="{...}" />
-            <marker date="1453541600000" expanded="true" signature="316:444" placeholder="{...}" />
-            <marker date="1453541600000" expanded="true" signature="487:1196" placeholder="{...}" />
-            <marker date="1453541600000" expanded="true" signature="772:1119" placeholder="{...}" />
-            <marker date="1453541600000" expanded="true" signature="1061:1113" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dibbs.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -438,6 +426,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69036144">
           <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <marker date="1453556598000" expanded="true" signature="31:1986" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="38:588" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="596:1978" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="620:1828" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="645:699" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="726:1821" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="771:989" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1022:1688" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1054:1673" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1076:1146" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1168:1223" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1245:1316" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1338:1390" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1412:1485" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1507:1559" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1581:1654" placeholder="..." />
+            <marker date="1453556598000" expanded="true" signature="1723:1810" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/countdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79532164">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding />
         </state>
       </provider>
