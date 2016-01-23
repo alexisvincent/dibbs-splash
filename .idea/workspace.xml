@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d47df64-e3b8-401b-aceb-f71453830234" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/carousel.css" afterPath="$PROJECT_DIR$/src/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="splash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="carousel.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/carousel.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38915664">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.69036144">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/style.css" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/carousel.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -395,10 +395,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57349396">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <marker date="1453556349000" expanded="true" signature="10:152" placeholder="{...}" />
+            <marker date="1453556349000" expanded="true" signature="170:385" placeholder="{...}" />
+            <marker date="1453556349000" expanded="true" signature="407:563" placeholder="{...}" />
+            <marker date="1453556349000" expanded="true" signature="586:605" placeholder="{...}" />
+            <marker date="1453556349000" expanded="true" signature="632:692" placeholder="{...}" />
+            <marker date="1453556349000" expanded="true" signature="658:690" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27349398">
-          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.57349396">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding>
             <marker date="1453556060000" expanded="true" signature="5:39" placeholder="{...}" />
             <marker date="1453556060000" expanded="true" signature="43:77" placeholder="{...}" />
@@ -421,31 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21084337">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-          <folding>
-            <marker date="1453556278000" expanded="true" signature="31:1851" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="38:588" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="596:1843" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="620:1693" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="645:699" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="726:1686" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="771:989" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="1022:1553" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="1054:1538" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="1076:1178" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="1200:1300" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="1322:1424" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="1446:1519" placeholder="..." />
-            <marker date="1453556278000" expanded="true" signature="1588:1675" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38915664">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.69036144">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding />
         </state>
       </provider>
