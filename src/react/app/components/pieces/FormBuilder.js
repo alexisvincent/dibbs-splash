@@ -56,7 +56,7 @@ export default (formSchema, options) => {
             },
             text: {
                 checkString: /^[A-z ]+$/,
-                error: `${label} must only container letters`
+                error: `${label} must only contain letters`
             },
             integer: {
                 checkString: /^[0-9.]+$/,
