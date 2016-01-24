@@ -1,0 +1,39 @@
+.success {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  .success-title {
+    padding: 3em;
+    p {
+      font-size: 300%;
+    }
+  }
+
+  .success-content {
+    font-size: 150%;
+    padding: 2em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40em;
+    text-align: center;
+
+    .register {
+      background: rgba(255, 255, 255, .2);
+      color: white;
+      font-size: 120%;
+      font-weight: 200;
+      padding: .5em 1em .5em 1em;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+    .register:active {
+      background: rgba(255, 255, 255, .3);
+      box-shadow: none;
+    }
+  }
+}

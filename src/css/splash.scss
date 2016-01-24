@@ -201,5 +201,18 @@
       padding: 1em;
       text-align: center;
     }
+
+    .register {
+      background: rgba(255, 255, 255, .2);
+      color: white;
+      font-size: 150%;
+      font-weight: 200;
+      padding: .5em 1em .5em 1em;
+      margin-bottom: 1em;
+    }
+    .register:active {
+      background: rgba(255, 255, 255, .3);
+      box-shadow: none;
+    }
   }
 }

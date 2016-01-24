@@ -87,7 +87,8 @@ a {
       align-items: center;
       padding: 4em;
       img {
-        height: 4em;
+        width: 100%;
+        max-width: 15em;
       }
     }
 
@@ -150,6 +151,13 @@ a {
           }
         }
       }
+      a {
+        text-decoration: none;
+        border-bottom: 2px solid rgba(255, 255, 255, .65);
+      }
+      a:hover {
+        border-bottom: 2px solid white;
+      }
 
       .a-lot-of-content {
         @include phone {
@@ -187,3 +195,5 @@ a {
 }
 
 @import "splash";
+@import "form";
+@import "button";

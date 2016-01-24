@@ -1,0 +1,58 @@
+@mixin phone {
+  @media (max-width: 48em) {
+    @content;
+  }
+}
+
+.container {
+  font-family: 'Lato', sans-serif;
+  .register-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    @include phone {
+      padding: 2em;
+    }
+    img {
+      width: 100%;
+      max-width: 25em;
+    }
+  }
+
+  .register-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: 'Lato', sans-serif;
+      font-weight: 200;
+      font-size: 200%;
+      text-align: center;
+    }
+  }
+
+  .register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    padding-top: 3em;
+  }
+
+  .button {
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    font-size: 150%;
+    font-weight: 200;
+    padding: .5em 1em .5em 1em;
+    margin-bottom: 1em;
+  }
+  .button:active {
+    background: rgba(255, 255, 255, .3);
+    box-shadow: none;
+  }
+}
+
+@import "pieces/Input";
+@import "Success";
