@@ -63,9 +63,9 @@ class container extends Component {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    name: fields.name.value,
-                    surname: fields.surname.value,
-                    studentNumber: fields.studentNumber.value,
+                    first_name: fields.name.value,
+                    last_name: fields.surname.value,
+                    student_number: fields.studentNumber.value,
                     password: fields.password.value,
                     password_confirmation: fields.password_confirmation.value
                 })
