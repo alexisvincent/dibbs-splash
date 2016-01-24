@@ -8,7 +8,7 @@ class container extends Component {
 
         super();
 
-        this.state = {success: false}
+        this.state = {success: false, error: ''}
         this.form = FormBuilder(this.getForm(), {setState: state => this.setState(state)})
     }
 
@@ -41,6 +41,10 @@ class container extends Component {
                         p({}, "Create Your Account")
                     ),
 
+                    div({className: 'error-message'},
+                        p({}, this.state.error)
+                    ),
+
                     div({className: 'register-form'},
                         this.form.generateForm(this.state, {onSubmit: this.submit},
                             div({className: 'form-field'},
@@ -70,7 +74,17 @@ class container extends Component {
                     password_confirmation: fields.password_confirmation.value
                 })
             }).then(res => {
-                this.setState({success: true})
+                if (res.status == 201) {
+                    this.setState({success: true})
+                } else if (res.status == 409) {
+                    this.setState({
+                        error: "That student number has already been used!"
+                    })
+                } else {
+                    this.setState({
+                        error: "Oops. Something went wrong."
+                    })
+                }
             })
         }
 
