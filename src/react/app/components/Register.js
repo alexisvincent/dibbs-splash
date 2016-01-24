@@ -82,7 +82,7 @@ class container extends Component {
         e.preventDefault()
         const success = fields => {
             this.setState({button: 'Working...'})
-            fetch('http://database.staging.dibbsit.co.za/register', {
+            fetch('http://api.staging.dibbsit.co.za/register', {
                 method: 'post',
                 headers: {
                     'Accept': 'application/json',
