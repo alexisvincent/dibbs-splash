@@ -52,6 +52,9 @@
     background: rgba(255, 255, 255, .3);
     box-shadow: none;
   }
+  .button:disabled {
+    opacity: .7;
+  }
 
 
   .error-message {

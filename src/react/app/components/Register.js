@@ -8,7 +8,7 @@ class container extends Component {
 
         super();
 
-        this.state = {success: false, error: null}
+        this.state = {success: false, error: null, button: null}
         this.form = FormBuilder(this.getForm(), {setState: state => this.setState(state)})
     }
 
@@ -44,7 +44,11 @@ class container extends Component {
                         div({className: 'register-form'},
                             this.form.generateForm(this.state, {onSubmit: this.submit},
                                 div({className: 'form-field'},
-                                    button({onClick: this.submit, className: 'button'}, "Register")
+                                    button({
+                                        onClick: this.submit,
+                                        className: 'button',
+                                        disabled: this.state.button
+                                    }, this.state.button || "Register")
                                 )
                             )
                         ),
@@ -63,7 +67,8 @@ class container extends Component {
 
     setError = error => {
         this.setState({
-            error: error
+            error: error,
+            button: null
         })
 
         setTimeout(() => {
@@ -76,6 +81,7 @@ class container extends Component {
     submit = e => {
         e.preventDefault()
         const success = fields => {
+            this.setState({button: 'Working...'})
             fetch('http://database.staging.dibbsit.co.za/register', {
                 method: 'post',
                 headers: {
