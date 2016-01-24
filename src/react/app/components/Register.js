@@ -76,7 +76,7 @@ class container extends Component {
     submit = e => {
         e.preventDefault()
         const success = fields => {
-            fetch('http://docker.local:8080/register', {
+            fetch('http://database.staging.dibbsit.co.za/register', {
                 method: 'post',
                 headers: {
                     'Accept': 'application/json',
