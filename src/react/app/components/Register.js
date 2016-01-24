@@ -97,6 +97,8 @@ class container extends Component {
                 } else {
                     this.setError("Oops. Something went wrong.")
                 }
+            }).catch(err => {
+                this.setError("Oops. Something went wrong.")
             })
         }
 
