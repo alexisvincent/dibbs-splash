@@ -52,6 +52,44 @@
     background: rgba(255, 255, 255, .3);
     box-shadow: none;
   }
+
+
+  .error-message {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25em;
+    height: 5em;
+    background: rgba(229, 43, 55, 0.71);
+    top: 1em;
+    left: 50%;
+    margin-left: -12.5em;
+    @include phone {
+      margin-left: 0;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  transition: opacity .2s ease-in-out;
+  opacity: 1;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  transition: opacity .2s ease-in-out;
+  opacity: 0.01;
 }
 
 @import "pieces/Input";

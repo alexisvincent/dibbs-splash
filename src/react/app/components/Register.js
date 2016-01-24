@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { div, img, p, FormBuilder, button, text, a } from 'factories'
+import { div, img, p, FormBuilder, button, text, a, transition } from 'factories'
 
 export default
 class container extends Component {
@@ -8,7 +8,7 @@ class container extends Component {
 
         super();
 
-        this.state = {success: false, error: ''}
+        this.state = {success: false, error: null}
         this.form = FormBuilder(this.getForm(), {setState: state => this.setState(state)})
     }
 
@@ -27,34 +27,50 @@ class container extends Component {
                             div({className: 'success-content'},
                                 p({}, "Thank you for registering with ", text({}, "Dibbs!"), " We will be in touch."),
 
-                                a({className: 'register', href: "/"}, "Go Back")
+                                a({className: 'register', href: "/"}, "Back To Home")
                             )
                         )
                     )
                     :
-                div({className: 'scrollable'},
-                    div({className: 'register-header'},
-                        img({src: '/static/dibbs-white.png'})
-                    ),
+                    div({className: 'scrollable'},
+                        div({className: 'register-header'},
+                            img({src: '/static/dibbs-white.png'})
+                        ),
 
-                    div({className: 'register-title'},
-                        p({}, "Create Your Account")
-                    ),
+                        div({className: 'register-title'},
+                            p({}, "Create Your Account")
+                        ),
 
-                    div({className: 'error-message'},
-                        p({}, this.state.error)
-                    ),
-
-                    div({className: 'register-form'},
-                        this.form.generateForm(this.state, {onSubmit: this.submit},
-                            div({className: 'form-field'},
-                                button({onClick: this.submit, className: 'button'}, "Register")
+                        div({className: 'register-form'},
+                            this.form.generateForm(this.state, {onSubmit: this.submit},
+                                div({className: 'form-field'},
+                                    button({onClick: this.submit, className: 'button'}, "Register")
+                                )
                             )
+                        ),
+
+                        transition({transitionName: 'fade'},
+                            this.state.error ?
+                                div({className: 'error-message'},
+                                    p({}, this.state.error)
+                                )
+                                : null
                         )
                     )
-                )
             )
         )
+    }
+
+    setError = error => {
+        this.setState({
+            error: error
+        })
+
+        setTimeout(() => {
+            this.setState({
+                error: null
+            })
+        }, 5000)
     }
 
     submit = e => {
@@ -77,13 +93,9 @@ class container extends Component {
                 if (res.status == 201) {
                     this.setState({success: true})
                 } else if (res.status == 409) {
-                    this.setState({
-                        error: "That student number has already been used!"
-                    })
+                    this.setError("That student number has already been used!")
                 } else {
-                    this.setState({
-                        error: "Oops. Something went wrong."
-                    })
+                    this.setError("Oops. Something went wrong.")
                 }
             })
         }
