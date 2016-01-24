@@ -8,7 +8,7 @@ class container extends Component {
 
         super();
 
-        this.state = {success: true}
+        this.state = {success: false}
         this.form = FormBuilder(this.getForm(), {setState: state => this.setState(state)})
     }
 
