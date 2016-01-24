@@ -12,14 +12,6 @@ class container extends Component {
         this.form = FormBuilder(this.getForm(), {setState: state => this.setState(state)})
     }
 
-    componentWillMount() {
-
-    }
-
-    componentWillReceiveProps(props) {
-
-    }
-
     render() {
         const { success } = this.state
 
@@ -33,8 +25,7 @@ class container extends Component {
                             ),
 
                             div({className: 'success-content'},
-                                p({}, "Thank you for registering with ", text({}, "Dibbs!"), " We have sent you an email with more information. " +
-                                    "Please read it and confirm your email address!"),
+                                p({}, "Thank you for registering with ", text({}, "Dibbs!"), " We will be in touch."),
 
                                 a({className: 'register', href: "/"}, "Go Back")
                             )
@@ -65,7 +56,22 @@ class container extends Component {
     submit = e => {
         e.preventDefault()
         const success = fields => {
-            console.log(fields)
+            fetch('api.dibbsit.co.za/register', {
+                method: 'post',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: fields.name.value,
+                    surname: fields.surname.value,
+                    studentNumber: fields.studentNumber.value,
+                    password: fields.password.value,
+                    password_confirmation: fields.password_confirmation.value
+                })
+            }).then(res => {
+                this.setState({success: true})
+            })
         }
 
         this.form.handleSubmit(this.state, success)
@@ -110,7 +116,7 @@ class container extends Component {
                 {
                     type: 'password',
                     check: 'string',
-                    name: 'password_confirm',
+                    name: 'password_confirmation',
                     label: 'Confirm Password',
                     sameAs: 'password',
                     required: true

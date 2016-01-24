@@ -22,6 +22,7 @@
     "lodash": "^4.0.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
-    "storm-serve": "https://github.com/julienvincent/serve.git"
+    "storm-serve": "https://github.com/julienvincent/serve.git",
+    "whatwg-fetch": "^0.11.0"
   }
 }
