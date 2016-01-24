@@ -1,5 +1,7 @@
 import { Component } from 'react'
 import { div, img, p, FormBuilder, button, text, a, transition } from 'factories'
+require('es6-promise').polyfill()
+require('isomorphic-fetch')
 
 export default
 class container extends Component {
