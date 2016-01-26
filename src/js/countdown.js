@@ -1,4 +1,12 @@
 function getTimeRemaining(endtime) {
+    if (endtime <= new Date()) {
+        endtime = new Date('2016-02-04T15:00:00')
+        var beta = document.getElementById('beta')
+        var official = document.getElementById('official')
+
+        beta.innerText = "Count Down to Public Launch"
+        official.innerText = "Private beta is now live! Selected participants will be contacted personally."
+    }
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
     var minutes = Math.floor((t / 1000 / 60) % 60);
