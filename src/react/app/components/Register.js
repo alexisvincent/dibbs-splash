@@ -98,7 +98,7 @@ class container extends Component {
                     password_confirmation: fields.password_confirmation.value
                 })
             }).then(res => {
-                if (res.status == 201) {
+                if (res.status == 200) {
                     this.setState({success: true})
                 } else if (res.status == 409) {
                     this.setError("That student number has already been used!")
