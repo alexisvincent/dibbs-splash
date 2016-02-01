@@ -1,6 +1,6 @@
 function getTimeRemaining(endtime) {
     if (endtime <= new Date()) {
-        endtime = new Date('2016-02-01T15:05:00')
+        endtime = new Date('2016-02-01T15:09:00')
         var beta = document.getElementById('beta')
         var official = document.getElementById('official')
 
