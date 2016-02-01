@@ -187,22 +187,17 @@
       -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
       color: white;
       font-family: 'Lato', sans-serif;
       font-weight: 300;
       font-style: italic;
       padding: 1em;
       text-align: center;
-      #official {
-        font-size: 130%;
+      font-size: 130%;
+      opacity: .9;
+      min-height: 8em;
+      @include phone {
+        font-size: 90%;
       }
     }
 
