@@ -191,13 +191,13 @@
       font-family: 'Lato', sans-serif;
       font-weight: 300;
       font-style: italic;
-      padding: 1em;
+      padding: .2em;
       text-align: center;
-      font-size: 130%;
+      font-size: 260%;
       opacity: .9;
-      min-height: 8em;
+      min-height: 2em;
       @include phone {
-        font-size: 110%;
+        font-size: 200%;
       }
     }
 
